@@ -1,0 +1,33 @@
+{
+  "angles": [
+    { "id": "question", "label": "Question", "description": "A recognisable question about the supplied pain.", "example": "Where did the matching sock go?" },
+    { "id": "complaint", "label": "Complaint", "description": "An everyday frustration expressed in natural spoken English.", "example": "Laundry done. Matching socks still waiting." },
+    { "id": "pattern-interrupt", "label": "Pattern interrupt", "description": "A surprising, clearly staged opening that introduces the same problem.", "example": "A missing poster. For a sock." },
+    { "id": "personification", "label": "Personification", "description": "Playful personification of a laundry object, not a literal product claim.", "example": "My laundry basket has a sock collection." },
+    { "id": "story", "label": "Story / POV", "description": "A short relatable scene, not an invented customer testimonial.", "example": "POV: laundry folded, loose socks still waiting." },
+    { "id": "curiosity", "label": "Curiosity", "description": "An open loop that the unchanged reference body can honestly resolve.", "example": "Take a closer look at these cuffs." },
+    { "id": "benefit", "label": "Product / benefit", "description": "A concrete product detail supported only by the verified facts.", "example": "Small magnets on the cuffs. A closer look." },
+    { "id": "gift", "label": "Gift", "description": "A gift-oriented creative framing without new packaging or delivery promises.", "example": "A gift idea for laundry day." },
+    { "id": "contrast", "label": "Visual contrast", "description": "Contrast the supplied task and product, without inventing measured outcomes.", "example": "The laundry problem. The product detail." }
+  ],
+  "references": [
+    {
+      "id": "sample-laundry-pov",
+      "title": "Laundry POV",
+      "synthetic": true,
+      "script": "[0-3s] VO: Laundry folded. Loose socks still waiting.\nON-SCREEN: The unfinished task.\n[3-8s] FRAME: A neat stack of laundry beside a few loose socks.\n[8-15s] VO: SockLock pairs have small magnets on the cuffs.\n[15-22s] FRAME: A close-up of the cuffs using the verified product appearance.\n[22-30s] VO: Five pairs for $29, with a new delivery every quarter. Check the subscription details."
+    },
+    {
+      "id": "sample-missing-poster",
+      "title": "Missing-sock poster",
+      "synthetic": true,
+      "script": "[0-3s] VO: A missing poster. For a sock.\nON-SCREEN: Last seen: laundry day.\n[3-8s] FRAME: A clearly staged missing-sock poster beside a laundry basket.\n[8-15s] VO: Take a closer look at SockLock and the small magnets on the cuffs.\n[15-25s] FRAME: Show the actual product detail; no timed or guaranteed outcome.\n[25-30s] VO: See the subscription details before you order."
+    },
+    {
+      "id": "sample-product-closeup",
+      "title": "Product close-up",
+      "synthetic": true,
+      "script": "[0-3s] VO: Look closer at these cuffs.\nON-SCREEN: Small magnets.\n[3-10s] FRAME: Close-up of a verified SockLock cuff and the magnet.\n[10-20s] VO: The magnets hold a sock pair together.\n[20-30s] VO: The subscription includes five pairs for $29 and a new delivery every quarter. Check the terms before you order."
+    }
+  ]
+}

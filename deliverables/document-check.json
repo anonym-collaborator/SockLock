@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-09T06:34:51.269Z",
+  "pdfPages": 3,
+  "layout": [
+    {
+      "page": 1,
+      "height": 1123,
+      "scrollHeight": 1123,
+      "lastContentBottom": 886.5,
+      "footerTop": 1058.78125,
+      "overlapsFooter": false,
+      "contentOverflow": false
+    },
+    {
+      "page": 2,
+      "height": 1123,
+      "scrollHeight": 1123,
+      "lastContentBottom": 898.828125,
+      "footerTop": 1058.78125,
+      "overlapsFooter": false,
+      "contentOverflow": false
+    },
+    {
+      "page": 3,
+      "height": 1123,
+      "scrollHeight": 1123,
+      "lastContentBottom": 954.796875,
+      "footerTop": 1058.78125,
+      "overlapsFooter": false,
+      "contentOverflow": false
+    }
+  ],
+  "language": "Ukrainian",
+  "sources": 8
+}

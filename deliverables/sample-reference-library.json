@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "reference-library",
+  "references": [
+    {
+      "id": "sample-laundry-pov",
+      "title": "Laundry POV",
+      "script": "[0-3s] VO: Laundry folded. Loose socks still waiting.\nON-SCREEN: The unfinished task.\n[3-8s] FRAME: A neat stack of laundry beside a few loose socks.\n[8-15s] VO: SockLock pairs have small magnets on the cuffs.\n[15-22s] FRAME: A close-up of the cuffs using the verified product appearance.\n[22-30s] VO: Five pairs for $29, with a new delivery every quarter. Check the subscription details.",
+      "synthetic": true
+    },
+    {
+      "id": "sample-missing-poster",
+      "title": "Missing-sock poster",
+      "script": "[0-3s] VO: A missing poster. For a sock.\nON-SCREEN: Last seen: laundry day.\n[3-8s] FRAME: A clearly staged missing-sock poster beside a laundry basket.\n[8-15s] VO: Take a closer look at SockLock and the small magnets on the cuffs.\n[15-25s] FRAME: Show the actual product detail; no timed or guaranteed outcome.\n[25-30s] VO: See the subscription details before you order.",
+      "synthetic": true
+    },
+    {
+      "id": "sample-product-closeup",
+      "title": "Product close-up",
+      "script": "[0-3s] VO: Look closer at these cuffs.\nON-SCREEN: Small magnets.\n[3-10s] FRAME: Close-up of a verified SockLock cuff and the magnet.\n[10-20s] VO: The magnets hold a sock pair together.\n[20-30s] VO: The subscription includes five pairs for $29 and a new delivery every quarter. Check the terms before you order.",
+      "synthetic": true
+    },
+    {
+      "id": "reference-4793a4b7-3cbe-444b-a856-8d64c07979b4",
+      "title": "Test style script",
+      "script": "An edited fictional style example. Show a staged laundry basket, without changing the commercial offer.",
+      "synthetic": true
+    }
+  ]
+}

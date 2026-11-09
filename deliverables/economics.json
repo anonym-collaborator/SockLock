@@ -1,0 +1,96 @@
+{
+  "baseline": {
+    "totalSpend": 400000,
+    "totalEGP": 140000,
+    "modificationSpend": 230000,
+    "modifications": 240,
+    "hoursPerModification": 3,
+    "historicalModificationHours": 720,
+    "unchangedHoursPerModification": 1.5,
+    "targetModifications": 500
+  },
+  "scenarios": [
+    {
+      "name": "Pessimistic",
+      "hours": 2.4,
+      "realization": 0.3,
+      "marginalROMI": 1.25,
+      "availableHours": 720,
+      "capacity": 300,
+      "extraModifications": 60,
+      "spendPerModification": 958.3333333333334,
+      "extraSpend": 17250,
+      "extraEGP": 4312.5,
+      "totalSpend": 417250,
+      "totalEGP": 144312.5,
+      "totalROMI": 1.3458657878969442
+    },
+    {
+      "name": "Base",
+      "hours": 1.8,
+      "realization": 0.6,
+      "marginalROMI": 1.3,
+      "availableHours": 720,
+      "capacity": 400,
+      "extraModifications": 160,
+      "spendPerModification": 958.3333333333334,
+      "extraSpend": 92000,
+      "extraEGP": 27600.000000000004,
+      "totalSpend": 492000,
+      "totalEGP": 167600,
+      "totalROMI": 1.340650406504065
+    },
+    {
+      "name": "Optimistic",
+      "hours": 1.6,
+      "realization": 0.8,
+      "marginalROMI": 1.35,
+      "availableHours": 720,
+      "capacity": 450,
+      "extraModifications": 210,
+      "spendPerModification": 958.3333333333334,
+      "extraSpend": 161000,
+      "extraEGP": 56350.000000000015,
+      "totalSpend": 561000,
+      "totalEGP": 196350,
+      "totalROMI": 1.35
+    }
+  ],
+  "noIncrementalSpend": {
+    "name": "Base",
+    "hours": 1.8,
+    "realization": 0,
+    "marginalROMI": 1.3,
+    "availableHours": 720,
+    "capacity": 400,
+    "extraModifications": 160,
+    "spendPerModification": 958.3333333333334,
+    "extraSpend": 0,
+    "extraEGP": 0,
+    "totalSpend": 400000,
+    "totalEGP": 140000,
+    "totalROMI": 1.35
+  },
+  "hoursSensitivity": {
+    "name": "Base",
+    "hours": 1.8,
+    "realization": 0.6,
+    "marginalROMI": 1.3,
+    "availableHours": 480,
+    "capacity": 266,
+    "extraModifications": 26,
+    "spendPerModification": 958.3333333333334,
+    "extraSpend": 14950,
+    "extraEGP": 4485.000000000001,
+    "totalSpend": 414950,
+    "totalEGP": 144485,
+    "totalROMI": 1.3481985781419448
+  },
+  "tokenEstimate": {
+    "batches": 250,
+    "inputTokens": 2000000,
+    "outputTokens": 500000,
+    "costUSD": 4.5
+  },
+  "warning": "All future time savings, realization and marginal ROMI are assumptions. Historical 720 hours are not a staffing guarantee. EGP is not net profit or cash received this month."
+}

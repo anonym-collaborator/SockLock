@@ -1,0 +1,38 @@
+[
+  {
+    "id": "laundry",
+    "label": "Laundry day / synthetic reference",
+    "brief": {
+      "brand": "SockLock",
+      "audience": "US adults who sort household laundry and want to keep sock pairs together.",
+      "pain": "matching loose socks after the wash",
+      "script": "Another loose sock in the laundry basket? SockLock pairs have small magnets on the cuffs that hold the pair together. Five pairs are $29, with a new delivery every quarter. See the subscription details before you order.",
+      "offer": "Subscription: five pairs for $29; a new delivery every quarter.",
+      "facts": [
+        "SockLock sells socks with small magnets on their cuffs.",
+        "The magnets hold a sock pair together.",
+        "The offer is five pairs for $29, with a new delivery every quarter."
+      ],
+      "count": 10,
+      "syntheticExample": true
+    }
+  },
+  {
+    "id": "drawer",
+    "label": "Sock drawer / synthetic reference",
+    "brief": {
+      "brand": "SockLock",
+      "audience": "US adults sorting sock drawers after doing the household laundry.",
+      "pain": "sorting loose socks into matching pairs",
+      "script": "A drawer full of socks, and another pair to find. SockLock pairs use small magnets on their cuffs to hold the pair together. The subscription includes five pairs for $29 and a new delivery every quarter. Check the subscription details before you order.",
+      "offer": "Subscription: five pairs for $29; a new delivery every quarter.",
+      "facts": [
+        "SockLock socks have small magnets on their cuffs.",
+        "The magnets hold a sock pair together.",
+        "The subscription is five pairs for $29, with a new delivery every quarter."
+      ],
+      "count": 10,
+      "syntheticExample": true
+    }
+  }
+]

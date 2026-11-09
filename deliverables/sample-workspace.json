@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "kind": "workspace",
+  "brief": {
+    "brand": "SockLock",
+    "audience": "US adults who sort household laundry and want to keep sock pairs together.",
+    "pain": "matching loose socks after the wash",
+    "script": "Another loose sock in the laundry basket? SockLock pairs have small magnets on the cuffs that hold the pair together. Five pairs are $29, with a new delivery every quarter. See the subscription details before you order.",
+    "offer": "Subscription: five pairs for $29; a new delivery every quarter.",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "SockLock sells socks with small magnets on their cuffs."
+      },
+      {
+        "id": "F2",
+        "text": "The magnets hold a sock pair together."
+      },
+      {
+        "id": "F3",
+        "text": "The offer is five pairs for $29, with a new delivery every quarter."
+      }
+    ],
+    "count": 10,
+    "angleIds": [
+      "question",
+      "complaint",
+      "pattern-interrupt",
+      "personification",
+      "story",
+      "curiosity",
+      "benefit",
+      "gift",
+      "contrast"
+    ],
+    "references": []
+  },
+  "result": {
+    "brief": {
+      "brand": "SockLock",
+      "audience": "US adults who sort household laundry and want to keep sock pairs together.",
+      "pain": "matching loose socks after the wash",
+      "script": "Another loose sock in the laundry basket? SockLock pairs have small magnets on the cuffs that hold the pair together. Five pairs are $29, with a new delivery every quarter. See the subscription details before you order.",
+      "offer": "Subscription: five pairs for $29; a new delivery every quarter.",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "SockLock sells socks with small magnets on their cuffs."
+        },
+        {
+          "id": "F2",
+          "text": "The magnets hold a sock pair together."
+        },
+        {
+          "id": "F3",
+          "text": "The offer is five pairs for $29, with a new delivery every quarter."
+        }
+      ],
+      "count": 10,
+      "angleIds": [
+        "question",
+        "complaint",
+        "pattern-interrupt",
+        "personification",
+        "story",
+        "curiosity",
+        "benefit",
+        "gift",
+        "contrast"
+      ],
+      "references": []
+    },
+    "variants": [
+      {
+        "id": "V01",
+        "angle": "question",
+        "hook": "One basket. Another loose sock to match.",
+        "onScreen": "Another laundry question",
+        "firstFrame": "Begin with the supplied laundry task still unfinished.",
+        "reason": "Uses the selected question angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": true
+      },
+      {
+        "id": "V02",
+        "angle": "complaint",
+        "hook": "Laundry day. Then comes matching loose socks after the wash.",
+        "onScreen": "The unfinished task",
+        "firstFrame": "Show the supplied problem beside a neat stack of folded laundry.",
+        "reason": "Uses the selected complaint angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V03",
+        "angle": "pattern-interrupt",
+        "hook": "A missing poster. For a sock.",
+        "onScreen": "A laundry mystery",
+        "firstFrame": "Show a clearly staged missing-sock poster beside the laundry basket.",
+        "reason": "Uses the selected pattern-interrupt angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V04",
+        "angle": "personification",
+        "hook": "The laundry basket has a sock collection.",
+        "onScreen": "A basket with a secret",
+        "firstFrame": "Give the laundry basket a clearly playful expression using paper props.",
+        "reason": "Uses the selected personification angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V05",
+        "angle": "story",
+        "hook": "POV: you are dealing with matching loose socks after the wash.",
+        "onScreen": "POV: laundry day",
+        "firstFrame": "Film the supplied task from the point of view of the person doing the laundry.",
+        "reason": "Uses the selected story angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V06",
+        "angle": "curiosity",
+        "hook": "Look closer at SockLock.",
+        "onScreen": "A closer look",
+        "firstFrame": "Show the SockLock product from the reference. Keep its appearance unchanged.",
+        "reason": "Uses the selected curiosity angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V07",
+        "angle": "benefit",
+        "hook": "Look closer: SockLock sells socks with small magnets on their cuffs.",
+        "onScreen": "SockLock: details",
+        "firstFrame": "Show the SockLock product from the reference. Keep its appearance unchanged.",
+        "reason": "Uses the selected benefit angle while preserving the source body and offer.",
+        "factIds": [
+          "F1"
+        ],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V08",
+        "angle": "gift",
+        "hook": "A gift idea for laundry day.",
+        "onScreen": "A laundry-day gift idea",
+        "firstFrame": "Show the unchanged product beside a blank gift note, without new packaging claims.",
+        "reason": "Uses the selected gift angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V09",
+        "angle": "contrast",
+        "hook": "The problem: matching loose socks after the wash. Now, meet SockLock.",
+        "onScreen": "Problem. Product.",
+        "firstFrame": "Cut between the supplied laundry task and the unchanged product, without inventing measured outcomes.",
+        "reason": "Uses the selected contrast angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      },
+      {
+        "id": "V10",
+        "angle": "question",
+        "hook": "What would make matching loose socks after the wash less frustrating?",
+        "onScreen": "Another laundry question",
+        "firstFrame": "Begin with the supplied laundry task still unfinished.",
+        "reason": "Uses the selected question angle while preserving the source body and offer.",
+        "factIds": [],
+        "issues": [
+          {
+            "code": "human_review",
+            "severity": "notice",
+            "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+          }
+        ],
+        "blocked": false,
+        "approved": false
+      }
+    ],
+    "meta": {
+      "runId": "401aa812-472e-4aa1-a188-d18717477f03",
+      "createdAt": "2026-11-09T06:30:17.594Z",
+      "mode": "local",
+      "providerId": "local",
+      "providerLabel": "Local templates",
+      "source": "Local templates; no LLM request",
+      "model": null,
+      "usage": null,
+      "elapsedMs": 2.02,
+      "syntheticExample": true
+    }
+  },
+  "reviewElapsedMs": 1118
+}

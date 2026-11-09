@@ -1,0 +1,227 @@
+{
+  "brief": {
+    "brand": "SockLock",
+    "audience": "US adults who sort household laundry and want to keep sock pairs together.",
+    "pain": "matching loose socks after the wash",
+    "script": "Another loose sock in the laundry basket? SockLock pairs have small magnets on the cuffs that hold the pair together. Five pairs are $29, with a new delivery every quarter. See the subscription details before you order.",
+    "offer": "Subscription: five pairs for $29; a new delivery every quarter.",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "SockLock sells socks with small magnets on their cuffs."
+      },
+      {
+        "id": "F2",
+        "text": "The magnets hold a sock pair together."
+      },
+      {
+        "id": "F3",
+        "text": "The offer is five pairs for $29, with a new delivery every quarter."
+      }
+    ],
+    "count": 10,
+    "angleIds": null,
+    "references": []
+  },
+  "variants": [
+    {
+      "id": "V01",
+      "angle": "Problem-first",
+      "hook": "Still dealing with matching loose socks after the wash?",
+      "onScreen": "The familiar laundry problem",
+      "firstFrame": "Show the reference problem in a close-up before revealing the product.",
+      "reason": "Names the supplied pain directly instead of opening with a product pitch.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V02",
+      "angle": "Reference callback",
+      "hook": "Start here: \"Another loose sock in the laundry basket\"",
+      "onScreen": "A familiar moment",
+      "firstFrame": "Recreate the reference opening with a different camera angle.",
+      "reason": "Keeps the reference wording while changing the opening delivery and composition.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V03",
+      "angle": "Question",
+      "hook": "What would make matching loose socks after the wash less frustrating?",
+      "onScreen": "A different way to pair",
+      "firstFrame": "Start with the unfinished laundry task from the reference.",
+      "reason": "Invites the viewer to consider the supplied problem without inventing an outcome.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V04",
+      "angle": "Product detail",
+      "hook": "Look closer: SockLock sells socks with small magnets on their cuffs.",
+      "onScreen": "SockLock: a closer look",
+      "firstFrame": "Show the SockLock product from the reference. Keep its appearance unchanged.",
+      "reason": "Leads with a supplied product fact rather than a new commercial promise.",
+      "factIds": [
+        "F1"
+      ],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V05",
+      "angle": "POV",
+      "hook": "POV: you are dealing with matching loose socks after the wash.",
+      "onScreen": "POV: laundry day",
+      "firstFrame": "Shoot the reference task from the person doing the laundry rather than from across the room.",
+      "reason": "Changes the point of view while preserving the original problem.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V06",
+      "angle": "Routine interruption",
+      "hook": "Laundry day. Then comes matching loose socks after the wash.",
+      "onScreen": "The part after the wash",
+      "firstFrame": "Show the end of a wash cycle, then cut to the reference problem.",
+      "reason": "Introduces the same pain as a recognisable moment in the routine.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V07",
+      "angle": "Product-first",
+      "hook": "Meet SockLock, then take a closer look.",
+      "onScreen": "Meet SockLock",
+      "firstFrame": "Show the SockLock product from the reference. Keep its appearance unchanged.",
+      "reason": "Reverses the opening order: product first, original explanation afterwards.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V08",
+      "angle": "Pause and reveal",
+      "hook": "Pause here. \"Another loose sock in the laundry basket\"",
+      "onScreen": "Pause at the problem",
+      "firstFrame": "Freeze briefly on the reference problem before cutting to the unchanged product.",
+      "reason": "Adds a visual pause around the original opening instead of changing the offer.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "similar_hook",
+          "severity": "warning",
+          "message": "Similar to an earlier hook. Check whether the creative angle is genuinely different."
+        },
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V09",
+      "angle": "Task-first",
+      "hook": "Matching loose socks after the wash again?",
+      "onScreen": "The unfinished task",
+      "firstFrame": "Begin with the task still unfinished; use the props already present in the reference.",
+      "reason": "Starts with the supplied task as a question, not a performance guarantee.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    },
+    {
+      "id": "V10",
+      "angle": "Direct demonstration",
+      "hook": "SockLock, without the sales pitch. Watch the opening.",
+      "onScreen": "Start with the product",
+      "firstFrame": "Use a close-up demonstration supported by the verified facts, then return to the reference body.",
+      "reason": "Uses a demonstrative opening; the body carries the unchanged factual explanation.",
+      "factIds": [],
+      "issues": [
+        {
+          "code": "human_review",
+          "severity": "notice",
+          "message": "Verify factual claims, offer consistency and the shootable opening. Automated checks are incomplete."
+        }
+      ],
+      "blocked": false,
+      "approved": false
+    }
+  ],
+  "meta": {
+    "runId": "10c9b8e4-dfe9-4962-a36d-affd778b4b0a",
+    "createdAt": "2026-11-09T06:30:23.951Z",
+    "mode": "local",
+    "providerId": "local",
+    "providerLabel": "Local templates",
+    "source": "Local templates; no LLM request",
+    "model": null,
+    "usage": null,
+    "elapsedMs": 0.21,
+    "syntheticExample": true
+  }
+}

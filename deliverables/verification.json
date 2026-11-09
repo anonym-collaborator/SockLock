@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-11-09T06:30:23.954Z",
+  "checks": [
+    "Provider selector is built from the server registry and respects the configured default.",
+    "Reference dropdown is removed; Insert example explicitly fills a synthetic brief.",
+    "Local photo, font and icons load without external CDN requests.",
+    "Generates ten local-template drafts, explicitly labeled, with no automatic approvals.",
+    "Editing a draft to add an invented guarantee/promotion blocks human approval.",
+    "Approved CSV contains only approved drafts and the unchanged reference body/offer.",
+    "Approved JSON export is valid structured data.",
+    "Brief edits invalidate approval; workspace import rechecks all drafts and resets approvals.",
+    "Missing API configuration is displayed explicitly, without silently replacing a Claude request.",
+    "Missing Foundry configuration is explicit; the previous batch retains its real local-template provenance.",
+    "User-provided markup is rendered as text, not executable HTML.",
+    "390px viewport: generation works, image loads, no horizontal page/control overflow.",
+    "1024px viewport: generation works, image loads, no horizontal page/control overflow.",
+    "Configured Foundry selector, generation, provenance, human approval and export work end-to-end with an explicitly mocked client.",
+    "Angles are selectable, an empty selection cannot generate, and references can be viewed read-only.",
+    "Selected angles and added reference scripts reach the generation API and are preserved in the returned brief.",
+    "Editing a selected reference invalidates approval; library scripts survive reload and selected context survives workspace import.",
+    "Reference libraries support JSON export/import and deletion, with explicit confirmation."
+  ],
+  "browserErrors": [],
+  "screenshots": [
+    "desktop.png",
+    "mobile.png",
+    "laptop.png",
+    "reference-library.png"
+  ],
+  "localGeneration": {
+    "samples": 50,
+    "variantsPerSample": 10,
+    "medianMs": 0.19,
+    "p95Ms": 0.32
+  },
+  "claudeVerification": "SDK contract tested with mock responses. Live Claude generation was not evaluated; no API key provided.",
+  "foundryVerification": "Official OpenAI SDK request tested with a stub HTTP transport; browser workflow tested with an explicitly mocked client. No live Azure inference request or charge was made.",
+  "businessValidation": "Not performed: no real designers, winning creative exports or live ad access. The pilot metrics in README are targets, not measured outcomes."
+}

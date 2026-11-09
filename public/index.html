@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SockLock | Creative Variants</title>
+  <link rel="stylesheet" href="/vendor/manrope.css">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/vendor/lucide.js"></script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="/" aria-label="SockLock Variants home"><span class="brand-mark"><i data-lucide="link-2"></i></span><span>SockLock <small>VARIANTS</small></span></a>
+    <div class="header-actions">
+      <span class="local-badge"><span></span>Local workspace</span>
+      <button class="icon-button" id="import-project" type="button" aria-label="Import workspace" title="Import workspace"><i data-lucide="folder-open"></i></button>
+      <button class="icon-button" id="save-project" type="button" aria-label="Save workspace" title="Save workspace"><i data-lucide="save"></i></button>
+      <input id="project-file" type="file" accept=".json,application/json" hidden>
+    </div>
+  </header>
+
+  <main class="workbench">
+    <aside class="brief-panel">
+      <div class="section-heading"><div><span class="eyebrow">01 / BRIEF</span><h1>Creative brief</h1></div><button class="icon-button" id="reset-brief" type="button" aria-label="Reset brief" title="Reset brief"><i data-lucide="rotate-ccw"></i></button></div>
+      <form id="brief-form">
+        <div class="reference-row">
+          <img src="/reference.jpg" alt="Illustrative ordinary socks, not a photograph of the fictional SockLock product" width="76" height="76">
+          <div><button id="insert-example" class="secondary-button" type="button"><i data-lucide="file-input"></i>Insert example</button><span class="synthetic-label" id="synthetic-label">Your brief</span></div>
+        </div>
+        <div class="form-row"><div><label for="brand">Brand</label><input id="brand" name="brand" required minlength="2" maxlength="80" autocomplete="off"></div><div class="count-field"><label for="count">Variants</label><input id="count" name="count" type="number" min="4" max="12" value="10" required></div></div>
+        <label for="audience">Audience</label><textarea id="audience" name="audience" rows="2" required minlength="8" maxlength="500"></textarea>
+        <label for="pain">Customer pain</label><textarea id="pain" name="pain" rows="2" required minlength="8" maxlength="240"></textarea>
+        <label for="script">Source script</label><textarea id="script" name="script" class="script-field" rows="5" required minlength="60" maxlength="8000"></textarea>
+        <label for="offer">Unchanged offer</label><textarea id="offer" name="offer" rows="2" required minlength="8" maxlength="500"></textarea>
+        <label for="facts">Verified facts</label><textarea id="facts" name="facts" class="facts-field" rows="4" required maxlength="6000"></textarea>
+        <fieldset id="creative-angles" class="angles-fieldset"><legend>Creative angles</legend><div class="angle-toolbar"><span id="angle-selection-count">0 selected</span><div><button id="select-all-angles" class="icon-button" type="button" aria-label="Select all angles" title="Select all angles"><i data-lucide="list-checks"></i></button><button id="clear-angles" class="icon-button" type="button" aria-label="Clear angle selection" title="Clear angle selection"><i data-lucide="square"></i></button></div></div><div id="angle-options" class="angle-options"></div></fieldset>
+        <details id="reference-library" class="library-section"><summary><i data-lucide="chevron-down"></i><span>Reference library</span><span id="reference-selection-count">0 selected</span></summary><div class="library-toolbar"><button id="add-reference" class="secondary-button" type="button"><i data-lucide="plus"></i>Add script</button><div><button id="import-library" class="icon-button" type="button" aria-label="Import reference library" title="Import reference library"><i data-lucide="folder-open"></i></button><button id="export-library" class="icon-button" type="button" aria-label="Export reference library" title="Export reference library"><i data-lucide="download"></i></button></div></div><div id="reference-list" class="reference-list"></div><div id="library-error" class="error-message" role="alert" hidden></div><input id="library-file" type="file" accept=".json,application/json" hidden></details>
+        <div class="mode-heading"><label for="provider-select">Provider</label><span id="provider-status">Checking configuration</span></div>
+        <select id="provider-select" aria-label="Generation provider" disabled></select>
+        <button id="generate-button" class="primary-button" type="submit"><i data-lucide="sparkles"></i><span>Generate variants</span><i data-lucide="arrow-up-right"></i></button>
+        <div id="form-error" class="error-message" role="alert" hidden></div>
+      </form>
+    </aside>
+
+    <section class="results-panel" aria-labelledby="results-title">
+      <div class="results-heading"><div><span class="eyebrow">02 / MODIFICATIONS</span><h2 id="results-title">Creative openings</h2><p id="batch-status">No batch yet</p></div><div class="export-controls"><select id="export-format" aria-label="Export format"><option value="csv">CSV</option><option value="json">JSON</option></select><button id="export-button" class="secondary-button" type="button" disabled><i data-lucide="download"></i>Export approved</button></div></div>
+      <div class="results-toolbar"><div class="segmented filters" role="group" aria-label="Variant filter"><button type="button" data-filter="all" aria-pressed="true">All <span id="all-count">0</span></button><button type="button" data-filter="pending" aria-pressed="false">Unreviewed <span id="pending-count">0</span></button><button type="button" data-filter="approved" aria-pressed="false">Approved <span id="approved-count">0</span></button></div><span class="review-marker"><i data-lucide="shield-check"></i>Human review</span></div>
+      <div id="workspace-alert" class="workspace-alert" role="status" hidden></div>
+      <div id="empty-state" class="empty-state"><div class="empty-grid"><i data-lucide="clapperboard"></i><i data-lucide="message-square-text"></i><i data-lucide="scan-line"></i></div><h3>No creative openings yet</h3><p id="empty-description"></p></div>
+      <div id="variant-list" class="variant-grid" aria-live="polite"></div>
+      <div id="batch-footer" class="batch-footer" hidden><span id="run-source"></span><span id="run-time"></span></div>
+    </section>
+  </main>
+
+  <dialog id="edit-dialog">
+    <form id="edit-form"><div class="dialog-heading"><h2 id="edit-title">Edit opening</h2><button class="icon-button" id="close-editor" type="button" aria-label="Close editor" title="Close editor"><i data-lucide="x"></i></button></div><input id="edit-id" type="hidden"><label for="edit-angle">Angle</label><select id="edit-angle" required></select><label for="edit-hook">Opening hook</label><textarea id="edit-hook" rows="3" required maxlength="180"></textarea><label for="edit-screen">On-screen text</label><input id="edit-screen" required maxlength="80"><label for="edit-frame">First frame</label><textarea id="edit-frame" rows="3" required maxlength="320"></textarea><label for="edit-reason">Why this modification</label><textarea id="edit-reason" rows="2" required maxlength="240"></textarea><label for="edit-facts">Fact references</label><input id="edit-facts" placeholder="F1, F2"><div id="edit-error" class="error-message" role="alert" hidden></div><div class="dialog-actions"><button id="cancel-editor" type="button" class="secondary-button">Cancel</button><button type="submit" class="primary-button"><i data-lucide="check"></i>Save and recheck</button></div></form>
+  </dialog>
+  <dialog id="reference-dialog"><form id="reference-form"><div class="dialog-heading"><h2 id="reference-title">Add reference</h2><button id="close-reference" class="icon-button" type="button" aria-label="Close reference" title="Close reference"><i data-lucide="x"></i></button></div><input id="reference-id" type="hidden"><label for="reference-name">Script name</label><input id="reference-name" required minlength="2" maxlength="100"><label for="reference-script">Style reference script</label><textarea id="reference-script" rows="10" required minlength="30" maxlength="4000"></textarea><label class="synthetic-checkbox"><input id="reference-synthetic" type="checkbox">Synthetic example</label><div id="reference-error" class="error-message" role="alert" hidden></div><div class="dialog-actions"><button id="cancel-reference" class="secondary-button" type="button">Close</button><button id="save-reference" class="primary-button" type="submit"><i data-lucide="check"></i>Save reference</button></div></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿"scenario","hours_per_modification","available_hours","capacity","extra_spend","marginal_romi","extra_egp","total_spend","total_romi"
+"Pessimistic","2.4","720","300","17250.00","1.25","4312.50","417250.00","1.3459"
+"Base","1.8","720","400","92000.00","1.3","27600.00","492000.00","1.3407"
+"Optimistic","1.6","720","450","161000.00","1.35","56350.00","561000.00","1.3500"
