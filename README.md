@@ -176,36 +176,9 @@ server.mjs      повторна перевірка і CSV/JSON схвалени
 4. Режим транскреації для DE/FR: та сама логіка, але адаптація під ринок, а не дослівний переклад. Розблокує тести в Європі.
 5. Набір тест-кейсів (evals) для промпту: 20–30 переможців з очікуваними властивостями відповідей, щоб зміни промпту не погіршували якість.
 
-## Обмеження MVP
-
-- Евристики claims, чисел і схожості можуть пропускати помилки або давати false positives; `Approved draft` — рішення людини, не сертифікація чи дозвіл Meta.
-- Схожість — Jaccard наборів слів, поріг 0,72, не семантична модель; окремої перевірки проти першого VO вихідного скрипту ще немає.
-- JSON-схема не гарантує якість; `json_object` гарантує формат, локальна перевірка контролює поля, довжину, кількість і кути.
-- Референси впливають на промпт без fine-tuning. Local templates їх не аналізує й не є доказом якості AI.
-- Пояснення англійською. Немає Claude Code subscription-адаптера, генераційного CLI, Markdown-експорту, публікації чи генерації відео.
-- Бібліотека локальна для browser/origin; очищення даних сайту може її видалити. Конфіденційні референси не публікуйте.
-- Технічні тести й відео не доводять adoption чи EGP. Авторські перевірки Foundry/Claude виконувалися зі stub/mock-відповідями; бізнесовий пілот не проводився.
-- Сервер для localhost. Мережевий production потребує authentication, roles, retention та security review.
-
 ## Матеріали для здачі
 
 - [Рішення: PDF, 3 сторінки](deliverables/solution.pdf) — problem statement, вибір проблеми, EGP, build vs buy та пітч.
 - [Відеодемонстрація](deliverables/demo.mp4) — реальна робота інтерфейсу, локальна генерація, українські субтитри, без аудіо, до трьох хвилин; [сценарій](deliverables/demo-script.md).
 - [Браузерний звіт](deliverables/verification.json), [чернетки](deliverables/sample-output.json), [схвалений CSV](deliverables/sample-approved.csv), [приклад бібліотеки](deliverables/sample-reference-library.json).
 - [ZIP-комплект](deliverables/submission.zip); відтворення: `npm run document`, `npm run demo`, `npm run package`.
-
-| Критерій | Вага | Доказ / матеріал |
-|---|---:|---|
-| Робочий MVP | 45% | Код, 44 тести, 18 браузерних сценаріїв, відео; економія часу ще потребує пілоту |
-| Problem statement і пітч | 20% | PDF з проблемою, доказами, рішенням, ризиками й конкретним запитом |
-| Вибір проблеми та чесний EGP | 20% | Сценарії, нульовий випадок, staffing sensitivity, відтворювані розрахунки |
-| Метрики й наступні кроки | 15% | Пілот із контрольним чатом, quality/adoption/ROMI та stop gates |
-
-## Джерела
-
-- [Завдання SockLock](https://docs.google.com/document/d/1YZUVgU3bm_ISuKhdUY7GGttw2YXi2M1nnx8K5izyNpc/edit).
-- [Performance Marketing: Intro](https://www.youtube.com/watch?v=Zdbm_fpTZJU): 27:33 — модифікації; 43:59–48:04 — ROMI, масштаб і витрати.
-- [Performance Marketing: Martech](https://www.youtube.com/watch?v=Ne9KeCW7C7s): 9:12–15:23 — EGP/ефорт; 22:33 — build vs buy; 54:35–55:37 — бізнесова валідація; 1:23:16 — human review; 1:26:21 — сезонність. Використані українські ASR-субтитри, цифри звірено з дата-румом.
-- Ілюстративне фото звичайних шкарпеток: [Karola G / Pexels](https://www.pexels.com/photo/multicolored-socks-drying-on-rope-with-clothespins-in-open-air-4495756/), [ліцензія](https://www.pexels.com/license/). Це не фото SockLock і не доказ властивостей магнітів. Manrope та Lucide — локальні пакети з ліцензіями у залежностях.
-
-API-ключі, особисті workspace-копії, node_modules, сирі відео й оригінальні записи/субтитри лекцій не входять до комплекту публікації.
