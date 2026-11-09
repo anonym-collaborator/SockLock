@@ -178,8 +178,7 @@ server.mjs      повторна перевірка і CSV/JSON схвалени
 
 ## Матеріали для здачі
 
-- [Відеозахист](deliverables/video-defense.mp4) — авторський запис захисту MVP, 1 хв 42 с.
 - [Рішення: Google Docs, 3 сторінки](https://docs.google.com/document/d/1_JD20axlrP22riNGwuyC9-gP2bxkGvg9gAg9Ve49cQw/edit) — problem statement, вибір проблеми, EGP, build vs buy та пітч.
 - [Відеодемонстрація](deliverables/demo.mp4) — реальна робота інтерфейсу, локальна генерація, українські субтитри, без аудіо, до трьох хвилин; [сценарій](deliverables/demo-script.md).
 - [Браузерний звіт](deliverables/verification.json), [чернетки](deliverables/sample-output.json), [схвалений CSV](deliverables/sample-approved.csv), [приклад бібліотеки](deliverables/sample-reference-library.json).
-- [ZIP-комплект](deliverables/submission.zip) — із відеозахистом, без PDF; оновлення: `npm run package`. `npm run document` створює PDF лише локально, файл не публікується.
+- [ZIP-комплект](deliverables/submission.zip) — без PDF; оновлення: `npm run package`. `npm run document` створює PDF лише локально, файл не публікується.
