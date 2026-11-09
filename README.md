@@ -189,15 +189,16 @@ server.mjs      повторна перевірка і CSV/JSON схвалени
 
 ## Матеріали для здачі
 
-- [Рішення: PDF, 3 сторінки](deliverables/solution.pdf) — problem statement, вибір проблеми, EGP, build vs buy та пітч.
+- [Відеозахист](deliverables/video-defense.mp4) — авторський запис захисту MVP, 1 хв 42 с, без початкової заставки Teams.
+- [Рішення: Google Docs, 3 сторінки](https://docs.google.com/document/d/1_JD20axlrP22riNGwuyC9-gP2bxkGvg9gAg9Ve49cQw/edit) — problem statement, вибір проблеми, EGP, build vs buy та пітч.
 - [Відеодемонстрація](deliverables/demo.mp4) — реальна робота інтерфейсу, локальна генерація, українські субтитри, без аудіо, до трьох хвилин; [сценарій](deliverables/demo-script.md).
 - [Браузерний звіт](deliverables/verification.json), [чернетки](deliverables/sample-output.json), [схвалений CSV](deliverables/sample-approved.csv), [приклад бібліотеки](deliverables/sample-reference-library.json).
-- [ZIP-комплект](deliverables/submission.zip); відтворення: `npm run document`, `npm run demo`, `npm run package`.
+- [ZIP-комплект](deliverables/submission.zip) — із відеозахистом, без PDF; оновлення: `npm run package`. `npm run document` створює PDF лише локально, файл не публікується.
 
 | Критерій | Вага | Доказ / матеріал |
 |---|---:|---|
 | Робочий MVP | 45% | Код, 44 тести, 18 браузерних сценаріїв, відео; економія часу ще потребує пілоту |
-| Problem statement і пітч | 20% | PDF з проблемою, доказами, рішенням, ризиками й конкретним запитом |
+| Problem statement і пітч | 20% | Документ Google Docs і відеозахист із проблемою, доказами, рішенням, ризиками й конкретним запитом |
 | Вибір проблеми та чесний EGP | 20% | Сценарії, нульовий випадок, staffing sensitivity, відтворювані розрахунки |
 | Метрики й наступні кроки | 15% | Пілот із контрольним чатом, quality/adoption/ROMI та stop gates |
 
@@ -208,4 +209,4 @@ server.mjs      повторна перевірка і CSV/JSON схвалени
 - [Performance Marketing: Martech](https://www.youtube.com/watch?v=Ne9KeCW7C7s): 9:12–15:23 — EGP/ефорт; 22:33 — build vs buy; 54:35–55:37 — бізнесова валідація; 1:23:16 — human review; 1:26:21 — сезонність. Використані українські ASR-субтитри, цифри звірено з дата-румом.
 - Ілюстративне фото звичайних шкарпеток: [Karola G / Pexels](https://www.pexels.com/photo/multicolored-socks-drying-on-rope-with-clothespins-in-open-air-4495756/), [ліцензія](https://www.pexels.com/license/). Це не фото SockLock і не доказ властивостей магнітів. Manrope та Lucide — локальні пакети з ліцензіями у залежностях.
 
-API-ключі, особисті workspace-копії, node_modules, сирі відео й оригінальні записи/субтитри лекцій не входять до комплекту публікації.
+API-ключі, особисті workspace-копії, node_modules, проміжні відео й оригінальні записи/субтитри лекцій не входять до комплекту публікації. Авторський відеозахист включено окремим файлом.

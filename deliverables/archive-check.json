@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-11-09T07:07:06.355Z",
+  "checkedAt": "2026-11-09T09:50:44.439Z",
   "fileCount": 57,
-  "sizeBytes": 4281492,
+  "sizeBytes": 8876298,
   "verifiedHashes": true,
   "excludesCredentials": true,
   "excludesNodeModules": true,
-  "containsThreePagePDF": true,
-  "containsRecordedMP4": true
+  "containsPDF": false,
+  "containsRecordedMP4": true,
+  "containsVideoDefense": true
 }
