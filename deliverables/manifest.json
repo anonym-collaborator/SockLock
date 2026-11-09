@@ -1,5 +1,5 @@
 {
-  "packagedAt": "2026-11-09T09:51:48.137Z",
+  "packagedAt": "2026-11-09T09:53:05.408Z",
   "files": {
     ".env.example": "611f128d089426a1d7a123a9aa5be48aa68eccef90dc8811c37f6c79d175f14e",
     ".gitignore": "91fcbdfea3d04a193d2db53110c8a5ffe5cc3d0768112c76ff63c73f3742355c",
@@ -39,7 +39,7 @@
     "public/styles.css": "d99851205ad42f1d1e5f9c15eb932ef343c719cdb08138c53c7fa0001a6610cf",
     "public/submission.css": "2ca1d7749a78918c3cee50fdb4149c92b48e5d0276098310cf824fb15daa9386",
     "public/submission.html": "8ba4adfef560efccd1395a6ff668f0447dd121a4260abc4241981fa5618c696b",
-    "README.md": "8b39d12aeabb6ce4a7453b49d7b0fa2a39751112d3361eef789a2bcec5916fb5",
+    "README.md": "80e993127311814368ed2cbb98b9b6f8cf561328f56142ddcbe2eba8de711b67",
     "samples/briefs.json": "07c8e61a9cf9d0d1f38cc19cf992383a8bc25782eb24f770d66a6cd85137f4fc",
     "samples/creative-library.json": "ad8f2a8970a773488c3b8e1a6805c56ff9568777bfbb82789469a94f6f99f07f",
     "scripts/calculate.mjs": "8f488d43cdca8949089e7fb725c90a391a5ec7b2d50ef418872820253511de67",
